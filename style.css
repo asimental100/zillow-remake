@@ -70,10 +70,9 @@
 
 .search {
     display: grid;
-    width: 100%;
-    height: auto;
-    background-image: url(zillow-background.jpg);
-    background-color: black;
+    width: 1000px;
+    height: 1000px;
+    background-image: url(https://www.zillowstatic.com/s3/homepage/static/_Desktop_overlay_2.jpg);
 }
 
 .questions {
