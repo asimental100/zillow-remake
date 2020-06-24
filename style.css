@@ -3,7 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-    align-content: stretch;   
+    align-content: stretch;
+    height: 100%;
+    width: 100%; 
 }
 
 .buy {
@@ -68,11 +70,37 @@
     "buy rent sell  loans agent . logo . rentals advertise sign-in help";
 }
 
+.reimagine {
+    grid-area: reimagine;
+    color: white;
+}
+
+.place-to-love {
+    grid-template-areas: place-to-love;
+    color: white;
+}
+
+.search-bar {
+    grid-area: search-bar;
+    height: 70px;
+    width: 1000px;
+}
+
 .search {
     display: grid;
-    width: 1000px;
-    height: 1000px;
     background-image: url(https://www.zillowstatic.com/s3/homepage/static/_Desktop_overlay_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1920px;
+    height: 1080px;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". reimagine ."
+    ". place-to-love ."
+    "search-bar search-bar search-bar";
 }
 
 .questions {
