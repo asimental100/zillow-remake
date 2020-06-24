@@ -1,4 +1,27 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;   
+}
+
+.header {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-areas: 
+    "buy rent sell  loans agent . logo . rentals advertise sign-in help";
+}
+
+.search {
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+
+.questions {
+    display: grid;
+    width: 100%;
+    height: auto;
 }
