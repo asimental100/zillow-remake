@@ -63,6 +63,7 @@
     width: 100%;
     height: auto;
     font-size: large;
+    cursor: pointer;
     grid-template-areas: 
     "buy rent sell  loans agent . logo . rentals advertise sign-in help";
 }
@@ -71,10 +72,17 @@
     display: grid;
     width: 100%;
     height: auto;
+    background-image: url(zillow-background.jpg);
+    background-color: black;
 }
 
 .questions {
     display: grid;
     width: 100%;
     height: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
