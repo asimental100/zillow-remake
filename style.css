@@ -8,38 +8,47 @@
 
 .buy {
     grid-area: buy;
+    place-self: center-stretch;
 }
 
 .rent {
     grid-area: rent;
+    place-self: center-stretch;
 }
 
 .sell {
     grid-area: sell;
+    place-self: center-stretch;
 }
 
 .loans {
     grid-area: loans;
+    place-self: center-stretch;
 }
 
 .agent {
     grid-area: agent;
+    place-self: center-stretch;
 }
 
 .logo {
     grid-area: logo;
+    place-self: center-stretch;
 }
 
 .rentals {
     grid-area: rentals;
+    place-self: center-stretch;
 }
 
 .advertise {
     grid-area: advertise;
+    place-self: center-stretch;
 }
 
 .sign-in {
     grid-area: sign-in;
+    place-self: center-stretch;
 }
 
 .help {
@@ -49,9 +58,11 @@
 .header {
     color: black;
     background-color: white;
+    border: solid 20px white;
     display: grid;
     width: 100%;
     height: auto;
+    font-size: large;
     grid-template-areas: 
     "buy rent sell  loans agent . logo . rentals advertise sign-in help";
 }
