@@ -6,7 +6,49 @@
     align-content: stretch;   
 }
 
+.buy {
+    grid-area: buy;
+}
+
+.rent {
+    grid-area: rent;
+}
+
+.sell {
+    grid-area: sell;
+}
+
+.loans {
+    grid-area: loans;
+}
+
+.agent {
+    grid-area: agent;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.rentals {
+    grid-area: rentals;
+}
+
+.advertise {
+    grid-area: advertise;
+}
+
+.sign-in {
+    grid-area: sign-in;
+}
+
+.help {
+    grid-area: help;
+}
+
 .header {
+    color: black;
+    background-color: white;
     display: grid;
     width: 100%;
     height: auto;
